@@ -1,0 +1,7 @@
+.PersonalInfo{
+    background: #18261f;
+    width: var(--personalInfoWidth);
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}

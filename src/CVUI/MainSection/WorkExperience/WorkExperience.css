@@ -1,0 +1,24 @@
+.WorkExperience{
+    display: flex;
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+}
+
+.dateExperience{
+    width: 20%;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dateExperience span:first-child{
+    font-weight: 700;
+}
+
+.contentExperience{
+    width: 80%;
+}
+
+.contentExperience h2, .contentExperience h3, .contentExperience p{
+    margin: 0;
+}

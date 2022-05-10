@@ -1,0 +1,49 @@
+.NamePicture{
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+figure{
+    border-radius: 50%;
+    background: whitesmoke;
+    overflow: hidden;
+    border: whitesmoke solid 0.2rem;
+}
+
+.profilePicture{
+    width: 8rem;
+}
+
+.myName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.4rem;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+.myName span:nth-child(1){
+    color: whitesmoke;
+}
+
+.myName span:nth-child(2){
+    color: #ffcc00;
+}
+
+.myCareer{
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0.2rem 0;
+    color: gainsboro;
+    font-size: 1.2rem;
+    border-bottom: gainsboro solid 2px;
+    border-top: gainsboro solid 2px;
+}

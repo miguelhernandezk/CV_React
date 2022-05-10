@@ -1,0 +1,16 @@
+.AdditionalInformation{
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.addInfoPers{
+    width: 50%;
+}
+
+.addInfoSkills{
+    width: 30%;
+}
+
+.addInfoHobbies{
+    width: 20%;
+}

@@ -1,0 +1,6 @@
+.MainSection{
+    background: whitesmoke;
+    width: var(--mainSectionWidth);
+    height: 100%;
+    padding: 2rem;
+}

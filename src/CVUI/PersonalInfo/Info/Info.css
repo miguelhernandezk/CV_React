@@ -1,0 +1,52 @@
+.Info{
+    color: gainsboro;
+    padding:  1rem;
+}
+
+.Info>p{
+    padding: 0.1rem;
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    border-bottom: gainsboro solid 2px;
+    border-top: gainsboro solid 2px;
+    vertical-align: middle;
+}
+
+.Info ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Info ul li{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.infoListIcons{
+    font-size: 1.6rem;
+    padding: 0.5rem 0.8rem;    
+}
+
+.Info ul li div:nth-child(2){
+    font-size: 0.8rem; 
+}
+
+.infoListTag{
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+.myInfo{
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+}
+
+.infoList li div:nth-child(2) p:nth-child(2){
+    font-size: 0.7rem;
+}

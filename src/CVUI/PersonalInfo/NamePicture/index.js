@@ -1,18 +1,19 @@
 import React from "react";
 import "./NamePicture.css"
 
-function NamePicture(){
+function NamePicture({ firstName, lastName, career, role }){
+    
     return(
         <div className="NamePicture">
             <figure>
                 <img className="profilePicture" src="https://avatars.githubusercontent.com/u/65262291?v=4" alt="Mike"/>
             </figure>
             <p className="myName">
-                <span>MIGUEL</span>
-                <span>HERNANDEZ</span>
+                <span>{ firstName }</span>
+                <span>{ lastName }</span>
             </p>
-            <p class="myCareer">
-                Web Developer and<br/>Mechatronics engineer
+            <p className="myCareer">
+                { career } / <br/>{ role}
             </p>
         </div>
     );

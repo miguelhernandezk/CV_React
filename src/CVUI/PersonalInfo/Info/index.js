@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 
-function Info(){
+function Info({information}){
     return(
         <div className="Info">
             <p>Info</p>
@@ -17,7 +17,7 @@ function Info(){
                     </div>
                     <div>
                         <p className="infoListTag">Name</p>
-                        <p className="myInfo">Miguel Hernández</p>
+                        <p className="myInfo">{information.firstName} {information.lastName}</p>
                     </div>
                 </li>
                 <li>
@@ -25,8 +25,8 @@ function Info(){
                         <FaMapMarkerAlt/>
                     </div>
                     <div>
-                        <p className="infoListTag">Adress</p>
-                        <p className="myInfo">Benito Juárez</p>
+                        <p className="infoListTag">Location</p>
+                        <p className="myInfo">{ information.city }, { information.country}</p>
                     </div>
                 </li>
                 <li>
@@ -35,7 +35,7 @@ function Info(){
                     </div>
                     <div>
                         <p className="infoListTag">Phone</p>
-                        <p className="myInfo">+52 222 335 1729</p>
+                        <p className="myInfo">{ information.phone }</p>
                     </div>
                 </li>
                 <li>

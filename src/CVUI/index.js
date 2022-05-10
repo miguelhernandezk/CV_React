@@ -4,7 +4,7 @@ import { MainSection } from "./MainSection";
 import "./CVUI.css"
 
 
-function CVUI(){
+function CVUI(){    
     return(
         <div className="CVUI">
             <PersonalInfo/>

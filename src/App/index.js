@@ -1,10 +1,14 @@
 import './App.css';
 import { CVUI } from '../CVUI';
+import { CVProvider } from "../CVContext/CVContext"
 
 function App() {
   return (
-    <CVUI/>
+    <CVProvider>
+      <CVUI/>
+    </CVProvider>
   );
 }
 
 export default App;
+

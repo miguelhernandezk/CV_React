@@ -7,7 +7,7 @@ import { SocialNetworks } from "./SocialNetworks";
 import { CVContext } from "../../CVContext/CVContext";
 
 function PersonalInfo(){
-    const { information } = React.useContext(CVContext);
+    const { information, socialMedia } = React.useContext(CVContext);
     return(
         <div className="PersonalInfo">
             <BackgroundShape/>
@@ -20,7 +20,13 @@ function PersonalInfo(){
             <Info 
                 information = { information }
             />
-            <SocialNetworks/>
+            <SocialNetworks
+                twitter = { socialMedia.twitter }
+                linkedin = { socialMedia.linkedin }
+                facebook = { socialMedia.facebook }
+                instagram = { socialMedia.instagram }
+                github = { socialMedia.github }
+            />
         </div>
     );
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import "./ProfileSection.css"
 
-function ProfileSection(){
+function ProfileSection({profile}){
     return(
         <div className="ProfileSection">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            <p>{ profile }</p>
         </div>
     );
 }

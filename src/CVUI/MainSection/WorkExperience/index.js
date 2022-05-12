@@ -1,11 +1,12 @@
 import React from "react";
 import "./WorkExperience.css";
 
-function WorkExperience(){
+function WorkExperience({experience}){
+    console.log(experience);
     return(
         <div className="WorkExperience">
             <div className="dateExperience">
-                <span>2018-2022</span>
+                <span>2022-2022</span>
                 <span>Location</span>
             </div>
             <div className="contentExperience">

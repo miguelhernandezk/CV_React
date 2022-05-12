@@ -44,7 +44,7 @@ function Info({information}){
                     </div>
                     <div>
                         <p className="infoListTag">Email</p>
-                        <p className="myInfo">miguelhernandezk@gmail.com</p>
+                        <p className="myInfo">{information.email}</p>
                     </div>
                 </li>
 
@@ -54,7 +54,7 @@ function Info({information}){
                     </div>
                     <div>
                         <p className="infoListTag">Website</p>
-                        <p className="myInfo">miguelhernandezmx.com</p>
+                        <p className="myInfo">{information.website}</p>
                     </div>
                 </li>
             </ul>

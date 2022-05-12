@@ -7,7 +7,7 @@ import { WorkExperience } from "./WorkExperience";
 import { CVContext } from "../../CVContext/CVContext"
 
 function MainSection(){
-    const { profile, experience, schoolExperience } = React.useContext(CVContext);
+    const { profile, experience, schoolExperience, personalData } = React.useContext(CVContext);
     return(
         <div className="MainSection">
             <SectionsHeading/>
@@ -25,7 +25,7 @@ function MainSection(){
             <WorkExperience experience = {schoolExperience[1]}/>
 
             <SectionsHeading/>
-            <AdditionalInformation/>
+            <AdditionalInformation personalData = { personalData }/>
         </div>
     );
 }

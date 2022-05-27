@@ -34,66 +34,56 @@ function CVProvider(props) {
     const [experience, setExperience] = React.useState([
         {
             position: 1,
-            yearBegin: "2018",
-            yearEnd: 2022, 
-            location: "Puebla",
-            title: "Sales engineer",
-            company: "Festo Pneumatic SA",
-            description: `Hello
-                          My name     `,
+            yearBegin: "2022",
+            yearEnd: "current", 
+            location: "Mexico",
+            title: "Web Developer",
+            company: "Personal Projects",
+            description: `Personal web applications design: Consume Rest API's, Front-End with
+                        vanilla JS and React.js, CSS frameworks: tailwind and bootstrap. `,
         },
         {
             position: 2,
-            yearBegin: "2019",
-            yearEnd: 2022, 
-            location: "Puebla",
-            title: "Sales engineer",
+            yearBegin: "2018",
+            yearEnd: "current", 
+            location: "Toluca, Mexico",
+            title: "Consultant sales engineer",
             company: "Festo Pneumatic SA",
-            description: `Hello
-                          My name     `,
+            description: `I give customer service to several Automotive Indsutry customers. 
+                         I advice, provide engineering solutions and train several people
+                         on new industrial automation products/trends`,
         },
         {
             position: 3,
-            yearBegin: "2020",
-            yearEnd: 2022, 
-            location: "Puebla",
-            title: "Sales engineer",
-            company: "Festo Pneumatic SA",
-            description: `Hello
-                          My name     `,
+            yearBegin: "2016",
+            yearEnd: 2017, 
+            location: "Beijing, China",
+            title: "Computer vision developer",
+            company: "Beihang university",
+            description: `I developed a simple computer vision system using Matlab and Python. 
+                          System consisted in aqcuiring images from a camera, using convolutional
+                          neural networks for processing and identifying 0-9 numbers`,
         }
     ]);
 
     const [schoolExperience, setSchoolExperience] = React.useState([
         {
             position: 1,
-            yearBegin: "2020",
-            yearEnd: 2022, 
-            location: "Puebla",
-            title: "Sales engineer",
-            company: "Festo Pneumatic SA",
-            description: `Hello
-                          My name     `,
+            yearBegin: "2011",
+            yearEnd: 2017, 
+            location: "Mexico City",
+            title: "Bachelor in Mechatronics",
+            company: "Instituto Politècnico Nacional",
+            description: null,
         },
         {
             position: 2,
-            yearBegin: "2020",
-            yearEnd: 2022, 
-            location: "Puebla",
-            title: "Sales engineer",
-            company: "Festo Pneumatic SA",
-            description: `Hello
-                          My name     `,
-        },
-        {
-            position: 3,
-            yearBegin: "2020",
-            yearEnd: 2022, 
-            location: "Puebla",
-            title: "Sales engineer",
-            company: "Festo Pneumatic SA",
-            description: `Hello
-                          My name     `,
+            yearBegin: "2022",
+            yearEnd: "current", 
+            location: "Mexico",
+            title: "Web development and Machine Learning",
+            company: "Platzi",
+            description: null,
         },
     ]);
 
@@ -101,7 +91,7 @@ function CVProvider(props) {
         {
             languages: "English[+8 years], French[+2years]",
             travel: "Yes",
-            relocate: "No",
+            relocate: "Yes",
             age: 28,
             civilStatus: "Single",
             passport: "yes",

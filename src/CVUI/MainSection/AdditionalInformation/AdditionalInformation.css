@@ -4,7 +4,7 @@
 }
 
 .addInfoPers{
-    width: 50%;
+    width: 40%;
 }
 
 .addInfoSkills{
@@ -12,5 +12,12 @@
 }
 
 .addInfoHobbies{
-    width: 20%;
+    width: 30%;
+}
+
+.addInfoHobbies ul, .addInfoSkills ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }

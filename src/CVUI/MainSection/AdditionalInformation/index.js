@@ -25,7 +25,7 @@ function AdditionalInformation({ personalData }) {
                 <br/>
 
                 <span><b>Passport: </b></span>
-                <span>{ personalData[0].passport }}</span>
+                <span>{ personalData[0].passport }</span>
                 <br/>
 
                 <span><b>American Visa: </b></span>

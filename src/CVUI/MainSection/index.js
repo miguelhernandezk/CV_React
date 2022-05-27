@@ -10,21 +10,33 @@ function MainSection(){
     const { profile, experience, schoolExperience, personalData } = React.useContext(CVContext);
     return(
         <div className="MainSection">
-            <SectionsHeading/>
+            <SectionsHeading
+                title = "Profile"
+                icon = "FaUserAlt"
+            />
             <ProfileSection
                 profile = { profile }
             />
 
-            <SectionsHeading/>
+            <SectionsHeading
+                title = "Work Experience"
+                icon = "FaSuitcase"
+            />
             <WorkExperience experience = {experience[0]}/>
             <WorkExperience experience = {experience[1]}/>
             <WorkExperience experience = {experience[2]}/>
 
-            <SectionsHeading/>
+            <SectionsHeading
+                title = "Education"
+                icon = "FaSchool"
+            />
             <WorkExperience experience = {schoolExperience[0]}/>
             <WorkExperience experience = {schoolExperience[1]}/>
 
-            <SectionsHeading/>
+            <SectionsHeading
+                title = "Additional info"
+                icon = "FaUserShield"
+            />
             <AdditionalInformation personalData = { personalData }/>
         </div>
     );

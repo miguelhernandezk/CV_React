@@ -3,7 +3,7 @@ import "./SkillHobbyItem.css";
 
 function SkillHobbyItem(props){
     return(
-        <li>
+        <li className="SkillHobbyItem">
             { props.text }
         </li>
     );

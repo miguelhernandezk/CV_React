@@ -3,7 +3,7 @@ import { AdditionalInformation } from "./AdditionalInformation";
 import "./MainSection.css";
 import { ProfileSection } from "./ProfileSection";
 import { SectionsHeading } from "./SectionsHeading";
-import { WorkExperience } from "./WorkExperience";
+import { WorkEducation } from "./WorkEducation";
 import { CVContext } from "../../CVContext/CVContext"
 
 function MainSection(){
@@ -22,16 +22,16 @@ function MainSection(){
                 title = "Work Experience"
                 icon = "FaSuitcase"
             />
-            <WorkExperience experience = {experience[0]}/>
-            <WorkExperience experience = {experience[1]}/>
-            <WorkExperience experience = {experience[2]}/>
+            <WorkEducation experience = {experience[0]}/>
+            <WorkEducation experience = {experience[1]}/>
+            <WorkEducation experience = {experience[2]}/>
 
             <SectionsHeading
                 title = "Education"
                 icon = "FaSchool"
             />
-            <WorkExperience experience = {schoolExperience[0]}/>
-            <WorkExperience experience = {schoolExperience[1]}/>
+            <WorkEducation experience = {schoolExperience[0]}/>
+            <WorkEducation experience = {schoolExperience[1]}/>
 
             <SectionsHeading
                 title = "Additional info"

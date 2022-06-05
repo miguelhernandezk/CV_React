@@ -1,5 +1,4 @@
 import React from "react";
-import { FaBookReader, FaCode } from "react-icons/fa";
 import "./AdditionalInformation.css"
 import { SkillHobbyItem } from "./SkillHobbyItem";
 

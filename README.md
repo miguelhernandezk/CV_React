@@ -1,3 +1,12 @@
+# Getting started with Resume Modification
+
+This Resume Layout was built using React. However, It's easy to customize since 
+all info can be modified in the CVContext file ("src/CVContext/CVContext.js").
+
+Note: If you want to make changes to the layout, you need knowledge on React, CSS and HTML. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

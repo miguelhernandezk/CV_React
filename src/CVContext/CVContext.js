@@ -7,17 +7,18 @@ function CVProvider(props) {
     const [information, setInformation] = React.useState({
         firstName: "Miguel",
         lastName: "Hernández",
-        career: "Web Developer",
-        role: "React Developer Jr.",
+        career: "Web Developer", // Or title
+        role: "React Developer Jr.", // Desired role
         city: "Puebla",
-        country: "Mexico",
+        country: "Mexico", 
         phone: "+52 1 222 335 1729",
         email: "miguelhernandezk@gmail.com",
         website: "miguelhernandezmx.com",
     });
 
     const [socialMedia, setSocialMedia] = React.useState({
-        linkedin: "@miguelhmx",
+        // Write your social media profile
+        linkedin: "@miguelhmx", 
         twitter: "@miguelhmx",
         facebook: "@miguelhmx",
         instagram: "@miguelhmx",

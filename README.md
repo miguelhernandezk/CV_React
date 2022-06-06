@@ -1,9 +1,29 @@
 # Getting started with Resume Modification
 
-This Resume Layout was built using React. However, It's easy to customize since 
-all info can be modified in the CVContext file ("src/CVContext/CVContext.js").
+This Resume Layout was built using React. However, It's easy to customize the info since 
+it can be modified in the CVContext file ("src/CVContext/CVContext.js").
+
+<img alt="CVContext file" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/CV_React_files_CVContext.png">
 
 Note: If you want to make changes to the layout, you need knowledge on React, CSS and HTML. 
+
+The CVContext file I tried to make the CVContext file as easy as possible so
+that you can easily identify which section fo the resume you'll be modifying. 
+
+# Layout composition
+The layout of this Resume template is divided into two different sections:
+- Main Section
+- Personal Info Section
+
+The following picture will help you distinguish each one:
+<img alt="Sections on template" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/CV_sections.png">
+
+You will find a carpet for each section within the CVUI carpet. 
+
+<img alt="Sections on template" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/SectionsCarpet.png">
+
+## Personal Info Section
+
 
 
 

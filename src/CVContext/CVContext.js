@@ -5,8 +5,8 @@ const CVContext = React.createContext();
 function CVProvider(props) {
 
     const [information, setInformation] = React.useState({
-        firstName: "Miguel",
-        lastName: "Hernández",
+        firstName: "Miguel",  // Your name
+        lastName: "Hernández", // Your last name (choose one if you have more)
         career: "Web Developer", // Or title
         role: "React Developer Jr.", // Desired role
         city: "Puebla",
@@ -32,12 +32,12 @@ function CVProvider(props) {
         requirements and customer service. `
     );
 
-    const [experience, setExperience] = React.useState([
+    const [experience, setExperience] = React.useState([ // Work experience. Try to use a maximum of three.
         {
-            position: 1,
-            yearBegin: "2022",
+            position: 1, // Do not edit
+            yearBegin: "2022", 
             yearEnd: "current", 
-            location: "Mexico",
+            location: "Mexico", 
             title: "Web Developer",
             company: "Personal Projects",
             description: `Personal web applications design: Consume Rest API's, Front-End with
@@ -67,7 +67,7 @@ function CVProvider(props) {
         }
     ]);
 
-    const [schoolExperience, setSchoolExperience] = React.useState([
+    const [schoolExperience, setSchoolExperience] = React.useState([ // Education. Try to use a maximum of three.
         {
             position: 1,
             yearBegin: "2011",
@@ -88,7 +88,8 @@ function CVProvider(props) {
         },
     ]);
 
-    const [personalData, setPersonalData] = React.useState([
+    const [personalData, setPersonalData] = React.useState([ // Recommended info you should include. Adding more info requires modifying 
+                                                             // the respective component. 
         {
             languages: "English[+8 years], French[+2years]",
             travel: "Yes",
@@ -99,7 +100,7 @@ function CVProvider(props) {
             americanVisa: "yes",
             driversLicense: "yes",
         },
-        [
+        [   // List of skills. Feel free to add, remove or modify. Be careful not to be too extensive. 
             "JavaScript",
             "CSS",
             "HTML",
@@ -108,7 +109,7 @@ function CVProvider(props) {
             "Sales",
             "Assertive communication",
         ],
-        [
+        [   // List of hobbies
             "Reading",
             "Programming",
             "Languages",
@@ -118,7 +119,8 @@ function CVProvider(props) {
             "Running",
         ],
     ]);
-    
+
+    // DO not modify if you don't have React Knowledge.
     return(
         <CVContext.Provider value={{
             information,

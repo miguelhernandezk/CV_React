@@ -1,7 +1,7 @@
 # Getting started with Resume Modification
 
 This Resume Layout was built using React. However, It's easy to customize the info since 
-it can be modified in the CVContext file ("src/CVContext/CVContext.js").
+it can be modified in the CVContext file `("src/CVContext/CVContext.js")`.
 
 <img alt="CVContext file" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/CV_React_files_CVContext.png">
 
@@ -23,6 +23,42 @@ You will find a carpet for each section within the CVUI carpet.
 <img alt="Sections on template" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/SectionsCarpet.png">
 
 ## Personal Info Section
+This section has four different components:
+- BackgroundShape
+- Info
+- NamePicture
+- SocialNetworks
+
+Let's get into them. 
+
+### Background Shape
+Notice the small triangle behind my photo? That's the background shape. In this case is a inverted yellow triangle made with CSS. 
+You can modify this by changing the CSS directly or by replacing the `div`in the `PersonalInfo/BackgroundShape/index.js`file.
+
+For example, if instead of a div I use an icon imported from FontAwesome and modify the CSS, the result would be somtehing like this:
+
+<img alt="Sections on template" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/Background_Modified.png">
+
+### Info
+Here you can find your name (first name and last name), location (city and country), phone number, email and your personal website.
+You can add or delete information by modifying two files: the CVContext file and the `PersonalInfo/Info/index.js file.
+
+<img alt="Info component" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/info_component.png">
+
+<img alt="CVContext Information" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/CVContext_information.png">
+
+# Name Picture
+In this component you'll be able to modify your profile picture by replacing the url in the img tag. You can do this by editing the 
+`PersonalInfo/NamePicture/index.js` file. 
+
+Changing your name or career/role must be done by editing the CVContext file. 
+
+
+
+
+
+
+
 
 
 

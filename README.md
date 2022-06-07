@@ -41,22 +41,39 @@ For example, if instead of a div I use an icon imported from FontAwesome and mod
 
 ### Info
 Here you can find your name (first name and last name), location (city and country), phone number, email and your personal website.
-You can add or delete information by modifying two files: the CVContext file and the `PersonalInfo/Info/index.js file.
+You can add or delete information by modifying two files: the CVContext file and the `PersonalInfo/Info/index.js` file.
 
 <img alt="Info component" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/info_component.png">
 
 <img alt="CVContext Information" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/CVContext_information.png">
 
-# Name Picture
+Adding more keys in the CVContext file will require you to add an extra entry (`<li>` tag) in the `PersonalInfo/Info/index.js` file, as follows:
+
+<img alt="Info item" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/info_item.png">
+
+### Name Picture
 In this component you'll be able to modify your profile picture by replacing the url in the img tag. You can do this by editing the 
 `PersonalInfo/NamePicture/index.js` file. 
 
+<img alt="url for photo" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/url_picture.png">
+
 Changing your name or career/role must be done by editing the CVContext file. 
 
+### Social Networks
+You can modify your social networks directly on the CVContext file. You can add, modify or remove social networks as you wish. If you add an extra social network, make sure you also add the corresponding `<li>`item in the `PersonalInfo/SocialNetworks/index.js` file.
 
 
+## Main Section
+The main section has four different components:
+- SectionsHeading
+- ProfileSection
+- WorkEducation
+- AdditionalInformation
 
+### Sections Heading
+This component is the "header" of each of the "sub-sections". It will display the text you send and you can change the icon by importing different icons and sending the corresponging name to the component. 
 
+<img alt="url for photo" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/SectionsHeading.png">
 
 
 

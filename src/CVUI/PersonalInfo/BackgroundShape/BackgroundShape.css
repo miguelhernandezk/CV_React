@@ -1,7 +1,7 @@
 .BackgroundShape{
     width: 0;
 	height: 0;
-	border-top: var(--personalInfoWidth) solid #ffcc00;
+	border-top: var(--personalInfoWidth) solid var(--mainColor);;
 	border-right:  var(--personalInfoWidth) solid transparent;
     z-index: 0;
     position: absolute;

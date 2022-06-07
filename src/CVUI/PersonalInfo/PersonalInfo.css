@@ -1,5 +1,5 @@
 .PersonalInfo{
-    background: #18261f;
+    background: var(--secondaryColor);
     width: var(--personalInfoWidth);
     height: 100%;
     position: relative;

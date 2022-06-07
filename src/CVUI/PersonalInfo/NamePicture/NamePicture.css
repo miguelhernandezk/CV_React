@@ -34,7 +34,7 @@ figure{
 }
 
 .myName span:nth-child(2){
-    color: #ffcc00;
+    color: var(--mainColor);
 }
 
 .myCareer{

@@ -5,14 +5,13 @@ body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   -webkit-print-color-adjust: exact !important;
+  --mainColor: #ffcc00;
+  --secondaryColor: #18261f;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-:root{
+/* ****************************************************/
+/* STOP. DO NOT EDIT ANY OF THE FOLLOWING LINES UNLESS YOU KNOW WHAT YOU ARE DOING 
+/* :root -> This settings help you get the A4 size for your resume */
+:root{ 
   --pageHeight: 297mm;
   --pageWidth: 210mm;
   --personalInfoWidth: calc(var(--pageWidth)*.30);
@@ -20,6 +19,7 @@ code {
   font-size: 62.5;
 }
 
+/* For printing your web page as a PDF or in a paper*/
 @page {
   size: A4;
   margin: 0;

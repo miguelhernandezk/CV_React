@@ -7,9 +7,9 @@ it can be modified in the CVContext file `("src/CVContext/CVContext.js")`.
 <img alt="CVContext file" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/CV_React_files_CVContext.png">
 </p>
 
-Note: If you want to make changes to the layout, you need knowledge on React, CSS and HTML. 
+**Note: If you want to make changes to the layout, you need knowledge on React, CSS and HTML.**
 
-The CVContext file I tried to make the CVContext file as easy as possible so
+I tried to make the CVContext file as easy as possible so
 that you can easily identify which section fo the resume you'll be modifying. 
 
 In order to create your own resume, start by starring and forking this project :)
@@ -32,10 +32,10 @@ You will find a carpet for each section within the CVUI carpet.
 
 ## Personal Info Section
 This section has four different components:
-- BackgroundShape
-- Info
-- NamePicture
-- SocialNetworks
+- [BackgroundShape](#background-shape)
+- [NamePicture](#name-picture)
+- [Info](#info)
+- [SocialNetworks](#social-networks)
 
 Let's get into them. 
 
@@ -49,12 +49,26 @@ For example, if instead of a div I use an icon imported from FontAwesome and mod
 <img alt="Sections on template" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/Background_Modified.png">
 </p>
 
+### Name Picture
+In this component you'll be able to modify your profile picture by replacing the url in the img tag. You can do this by editing the 
+`PersonalInfo/NamePicture/index.js` file. 
+
+<p align="center">
+<img alt="Name picture Section (Component)" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/NamePicture.png">
+</p>
+
+<p align="center">
+<img alt="url for photo" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/url_picture.png">
+</p>
+
+Changing your name or career/role must be done by editing the CVContext file. 
+
 ### Info
 Here you can find your name (first name and last name), location (city and country), phone number, email and your personal website.
 You can add or delete information by modifying two files: the CVContext file and the `PersonalInfo/Info/index.js` file.
 
 <p align="center">
-<img alt="Info component" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/info_component.png">
+<img alt="Info Section (Component)" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/info_component.png">
 </p>
 
 <p align="center">
@@ -67,18 +81,13 @@ Adding more keys in the CVContext file will require you to add an extra entry (`
 <img alt="Info item" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/info_item.png">
 </p>
 
-### Name Picture
-In this component you'll be able to modify your profile picture by replacing the url in the img tag. You can do this by editing the 
-`PersonalInfo/NamePicture/index.js` file. 
-
-<p align="center">
-<img alt="url for photo" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/url_picture.png">
-</p>
-
-Changing your name or career/role must be done by editing the CVContext file. 
-
 ### Social Networks
 You can modify your social networks directly on the CVContext file. You can add, modify or remove social networks as you wish. If you add an extra social network, make sure you also add the corresponding `<li>`item in the `PersonalInfo/SocialNetworks/index.js` file.
+
+<p align="center">
+<img alt="Social Section (Component)" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/socialNetworks.png">
+</p>
+
 
 
 ## Main Section
@@ -98,7 +107,8 @@ This component is the "header" of each of the "sub-sections". It will display th
 Changing the "section heading" text can be done by modifying the `MainSection/index.js` file. Just change the values (props).
 
 <p align="center">
-<img alt="Section Heading props" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/SectionHeadingProps.png>
+<img alt="Section Heading props" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/SectionHeadingProps.png">
+</p>
 
 If you want to know the names of every icon you can use, please go to the [React icons page](https://react-icons.github.io/react-icons/). In this template I use Font awesome Icons (just because I like them). 
 
@@ -108,17 +118,26 @@ Go to the `MainSection/SectionsHeading/index.js` file and change the switch case
 DON'T FORGET TO IMPORT YOUR NEW ICON IN THIS FILE! 
 
 <p align="center">
-<img alt="Icon of section heading" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/IconSectionHeading.png>
+<img alt="Icon of section heading" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/IconSectionHeading.png">
+</p>
 
 ### Profile Section. 
 This section is a short summary of your work experience, skills, achievements and goals. You can modify its content in the CVContext file.
 
+<p align="center">
+<img alt="Profile Section (Component)" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/ProfileSection.png">
+</p>
 <p align="center">
 <img alt="Profile Text" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/ProfileText.png">
 </p>
 
 ### Work Education. 
 This component is meant to show your education and your work experience. I use the same component for both. 
+
+<p align="center">
+<img alt="Work Section (Component)" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/WorkSection.png">
+<img alt="Education Section (Component)" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/EducationSection.png">
+</p>
 
 You can modify this in the CVContext file. You can add or remo experience, however I strongly recommend not to add more than three in each case. 
 
@@ -131,6 +150,10 @@ You can modify this in the CVContext file. You can add or remo experience, howev
 
 ### Additional information. 
 This component is meant to show extra information that most companies ask for. Depending on your region, some of it might be irrelevant. However, if you are in Latin America, I strongly recommend you to keep this info. I'll call this the "Personal extra info"
+
+<p align="center">
+<img alt="Education Section (Component)" src="https://miguelhernandezmx.com/wp-content/uploads/2022/06/AdditionalInfoSection.png">
+</p>
 
 You can also show your interests, hobbies and skilss in this section. 
 
@@ -170,9 +193,10 @@ If you want to know more about google fonts, go to their [site](https://fonts.go
 # Getting your resume in PDF format
 There are two ways to get your resume in PDF format:
 1. Make this project live
-2. Use your development environment
+2. Use your development environment (`npm install -> npm start`)
 
 Whichever you use, in your browser, print the web page (`⌘P` on mac, or `ctrl + P` on windows) and save your file. 
+
 
 # Getting Started with Create React App
 

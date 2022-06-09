@@ -3,6 +3,7 @@ import React from "react";
 const CVContext = React.createContext();
 
 function CVProvider(props) {
+    // You can edit all your info in this file. 
 
     const [information, setInformation] = React.useState({
         firstName: "Miguel",  // Your name
@@ -11,8 +12,8 @@ function CVProvider(props) {
         role: "React Developer Jr.", // Desired role
         city: "Puebla",
         country: "Mexico", 
-        phone: "+52 1 222 335 1729",
-        email: "miguelhernandezk@gmail.com",
+        phone: "+52 1 222 222 2222",
+        email: "example@gmail.com",
         website: "miguelhernandezmx.com",
     });
 
@@ -34,7 +35,7 @@ function CVProvider(props) {
 
     const [experience, setExperience] = React.useState([ // Work experience. Try to use a maximum of three.
         {
-            position: 1, // Do not edit
+            position: 1, // Do not edit the key "position"
             yearBegin: "2022", 
             yearEnd: "current", 
             location: "Mexico", 
@@ -44,7 +45,7 @@ function CVProvider(props) {
                         vanilla JS and React.js, CSS frameworks: tailwind and bootstrap. `,
         },
         {
-            position: 2,
+            position: 2, // Do not edit the key "position"
             yearBegin: "2018",
             yearEnd: "current", 
             location: "Toluca, Mexico",
@@ -55,7 +56,7 @@ function CVProvider(props) {
                          on new industrial automation products/trends`,
         },
         {
-            position: 3,
+            position: 3, // Do not edit the key "position"
             yearBegin: "2016",
             yearEnd: 2017, 
             location: "Beijing, China",
@@ -69,7 +70,7 @@ function CVProvider(props) {
 
     const [schoolExperience, setSchoolExperience] = React.useState([ // Education. Try to use a maximum of three.
         {
-            position: 1,
+            position: 1, // Do not edit the key "position"
             yearBegin: "2011",
             yearEnd: 2017, 
             location: "Mexico City",
@@ -78,7 +79,7 @@ function CVProvider(props) {
             description: null,
         },
         {
-            position: 2,
+            position: 2, // Do not edit the key "position"
             yearBegin: "2022",
             yearEnd: "current", 
             location: "Mexico",

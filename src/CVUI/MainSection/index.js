@@ -9,7 +9,8 @@ import { CVContext } from "../../CVContext/CVContext"
 function MainSection(){
     const { profile, experience, schoolExperience, personalData } = React.useContext(CVContext);
     return(
-        <div className="MainSection">
+        // MainSection interface
+        <section className="MainSection">
             <SectionsHeading
                 title = "Profile"
                 icon = "FaUserAlt"
@@ -38,7 +39,7 @@ function MainSection(){
                 icon = "FaUserShield"
             />
             <AdditionalInformation personalData = { personalData }/>
-        </div>
+        </section>
     );
 }
 

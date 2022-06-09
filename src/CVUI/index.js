@@ -6,10 +6,11 @@ import "./CVUI.css"
 
 function CVUI(){    
     return(
-        <div className="CVUI">
+        // Display PersonalInfo section and MainSection in a single A4 page
+        <section className="CVUI">
             <PersonalInfo/>
             <MainSection/>
-        </div>
+        </section>
     );
 }
 
